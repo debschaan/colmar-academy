@@ -1,0 +1,13 @@
+/* Mobile-First */
+.navbar {
+    height: 64px;
+    width: 100vw;
+}
+
+.navbar__icon {
+    background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/ic-logo.svg");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
