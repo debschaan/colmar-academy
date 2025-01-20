@@ -1,20 +1,27 @@
 /* Mobile-First */
-.navbar {
-    height: 64px;
+.header__hero {
+    background-color: var(--bg-dark-gray);
+    display: flex;
+    flex-direction: column;
+}
+
+.header__hero--banner {
     width: 100vw;
 }
 
-.navbar__list {
-    list-style: none;
+.header__hero--title {
+    padding: 32px 16px;
 }
 
-.navbar__icon {
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.header__hero--text {
+    padding: 0 16px 24px;
 }
 
-.logo {
-    background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/ic-logo.svg");
+.header__hero--button {
+    background-color: var(--button-mobile);
+    padding: 15px;
+    margin: 0 16px 32px;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
