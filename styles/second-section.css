@@ -10,6 +10,10 @@
     margin-bottom: 8px;
 }
 
+.section__courses:hover {
+    cursor: pointer;
+}
+
 .courses__container--image,
 .courses__container--subtitle,
 .courses__container--text {

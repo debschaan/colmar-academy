@@ -1,0 +1,11 @@
+.footer {
+    margin: 16px;
+}
+
+.footer__copyright {
+    font-size: 11px;
+}
+
+.footer__menu--list {
+    display: none;
+}

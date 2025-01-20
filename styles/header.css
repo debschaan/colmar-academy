@@ -25,3 +25,7 @@
     color: white;
     font-weight: bold;
 }
+
+.header__hero--button:hover {
+    cursor: pointer;
+}
