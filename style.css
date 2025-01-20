@@ -2,6 +2,9 @@
 @import url("styles/main.css");
 @import url("styles/footer.css");
 @import url("styles/navbar.css");
+@import url("styles/first-section.css");
+@import url("styles/second-section.css");
+@import url("styles/third-section.css");
 
 * {
     margin: 0;

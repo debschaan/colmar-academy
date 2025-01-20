@@ -1,0 +1,41 @@
+
+.section__options--image {
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    border: none;
+}
+
+.orientation-date {
+    background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/information-orientation-mobile.jpg");
+}
+
+.campus-image {
+    background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/information-campus-mobile.jpg");
+}
+
+.lecture-image {
+    background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/information-guest-lecture-mobile.jpg");
+    background-color: blue;
+}
+
+.section__options--content {
+    margin: 16px 16px 64px 16px;
+}
+
+
+.section__options--text,
+.section__options--title {
+    margin-bottom: 6px;
+}
+
+.section__options--text{
+    font-size: small;
+}
+
+.section__options--link {
+    text-decoration: none;
+    color: var(--blue);
+}

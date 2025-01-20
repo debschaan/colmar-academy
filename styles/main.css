@@ -1,0 +1,11 @@
+.main {
+    background-color: white;
+}
+
+.main__section {
+    margin: 16px;
+}
+
+.main__section--content {
+    display: none;
+}
