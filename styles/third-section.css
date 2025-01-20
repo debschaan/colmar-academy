@@ -1,0 +1,12 @@
+.thesis__section--video {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+}
+
+.thesis__options,
+.thesis__section--title,
+.thesis__section--text {
+    display: none;
+}
