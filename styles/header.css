@@ -29,3 +29,46 @@
 .header__hero--button:hover {
     cursor: pointer;
 }
+
+@media screen and (min-width: 800px) {
+    .header__hero {
+        display: grid;
+        grid-template-areas: 
+        "image title"
+        "image texto"
+        "image button";
+        padding: 32px 24px;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 3fr 1fr 3fr;
+        gap: 0;
+        row-gap: 16px;
+    }
+
+    .header__hero--banner {
+        grid-area: image;
+        width: 100%;
+    }
+
+    .header__hero--title {
+        grid-area: title;
+        padding: 0 60px 0 24px;
+        align-self: self-end;
+        font-size: 40px;
+    }
+
+    .header__hero--text {
+        grid-area: texto;
+        padding: 0 60px 0 24px;
+        font-size: 20px;
+    }
+
+    .header__hero--button {
+        grid-area: button;
+        align-self: self-start;
+        margin: 0 100px 0 24px;
+        font-size: 20px;
+        background-color: #444;
+        font-weight: 400;
+        padding: 8px auto;
+    }
+}

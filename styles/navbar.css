@@ -52,6 +52,7 @@
 
     .navbar {
         margin: auto 24px;
+        width: auto;
     }
 
     .navbar__list {
