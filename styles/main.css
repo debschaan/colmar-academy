@@ -14,3 +14,40 @@
     text-align: center;
     margin-bottom: 16px;
 }
+
+@media screen and (min-width: 800px) {
+
+    .main__section {
+        margin: 0;
+        display: flex;
+    }
+
+    .main__section--image {
+        width: 100%;
+    }
+
+    .main__section--text {
+        line-height: 23px;
+    }
+
+    .main__section--content {
+        display: block;
+        width: 63%;
+        padding: 32px 24px;
+        border-right: 1px solid lightgray;
+    }
+
+    .main__section--title {
+        text-align: left;
+        padding: 32px 0 24px 0;
+    }
+
+    .main__section--text-author {
+        margin: 32px 0;
+    }
+    
+    .main__section--options {
+        width: 40%;
+        padding: 32px 24px 0 0;
+    }
+}
