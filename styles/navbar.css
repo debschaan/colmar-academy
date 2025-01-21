@@ -46,3 +46,51 @@
 .companies-icon {
     display: none;
 }
+
+/* DESKTOP */
+@media screen and (min-width: 800px) {
+
+    .navbar {
+        margin: auto 24px;
+    }
+
+    .navbar__list {
+        justify-content: flex-end;
+        gap: 16px;
+        padding:  24px;
+    }
+
+    .navbar__list--item:first-child {
+        position: absolute;
+        left: 24px;
+        top: 16px;
+        height: 34px;
+    }
+
+    .navbar__list--item {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .navbar__list--link {
+        display: block;
+    }
+
+    .navbar__list--icon {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo-text {
+        font-weight: 100;
+    }
+
+    .navbar__logo--text-bold {
+        font-weight: bold;
+    }
+
+}
