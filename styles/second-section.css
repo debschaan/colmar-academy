@@ -19,3 +19,89 @@
 .courses__container--text {
     display: none;
 }
+
+@media screen and (min-width:800px) {
+    .second-section {
+        flex-direction: column;
+        margin: 0 auto;
+        border: none;
+        background-color: #eaebec;
+        padding: 72px;
+    }
+
+    .courses__container--image,
+    .courses__container--subtitle,
+    .courses__container--text {
+        display: block;
+    }
+
+    .section--title {
+        text-align: center;
+        padding-bottom: 32px;
+    }
+
+    .section__courses {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .section__courses--container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        flex: 1 1 calc((100% - 64px) / 3);
+        margin:0;
+    }
+
+    .courses__container--title {
+        padding: 16px 16px 24px 16px;
+    }
+
+    .courses__container--subtitle {
+        padding: 0 16px 8px;
+    }
+
+    .courses__container--text {
+        padding: 0 80px 24px 16px;
+        line-height: 25px;
+    }
+
+
+    /* images */
+    .courses__container--image {
+        background-size: cover;
+        height: 200px;
+
+        border: none;
+    }
+
+    .software {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-software.jpg");
+    }
+
+    .computer-art {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-computer-art.jpg");
+    }
+
+    .design {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-design.jpg");
+    }
+
+    .data {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-data.jpg");
+    }
+
+    .business {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-business.jpg");
+    }
+
+    .marketing {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/course-marketing.jpg");
+    }
+
+    .engineering {
+        display: none;
+    }
+}
