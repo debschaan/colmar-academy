@@ -1,10 +1,41 @@
+/* Mobile */
 .first-section__content {
     display: none;
 }
 
-.first-section__content--title {
-    text-align: center;
-    margin-bottom: 1rem;
+.first-section__options {
+    padding: 1rem; 
+    border-bottom: 1px solid var(--bg-dark-gray);
+}
+
+.first-section__options--container {
+    margin-bottom: 2rem;
+    
+}
+
+.first-section__options--content {
+    margin: 1rem;
+}
+
+.first-section__options--title {
+    font-size: 1.5rem;
+    color: var(--main-titles);
+}
+
+.first-section__options--text,
+.first-section__options--link{
+    font-size: 1.1rem;
+}
+
+.first-section__options--title,
+.first-section__options--text {
+    line-height: 1.5rem;
+    margin-bottom: .7rem;
+}
+
+.first-section__options--link {
+    text-decoration: none;
+    color: var(--links);
 }
 
 .first-section__options--image {
@@ -27,24 +58,7 @@
     background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/information-guest-lecture-mobile.jpg");
 }
 
-.first-section__options--content {
-    margin: 1rem 1rem 4rem 1rem;
-}
-
-.first-section__options--text,
-.first-section__options--title {
-    margin-bottom: .3rem;
-}
-
-.first-section__options--text {
-    font-size: .6rem;
-}
-
-.first-section__options--link {
-    text-decoration: none;
-    color: var(--links);
-}
-
+/* Desktop */
 @media screen and (min-width: 800px) {
 
     .first-section {
@@ -64,6 +78,11 @@
         width: 100%;
     }
 
+/*     .first-section__content--title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+ */
     .first-section__content--title {
         text-align: left;
         padding: 2rem 0 1.5rem 0;
