@@ -3,9 +3,38 @@
 }
 
 .footer__copyright {
-    font-size: 11px;
+    font-size: .8rem;
 }
 
 .footer__menu--list {
     display: none;
+}
+
+@media screen and (min-width:800px) {
+
+    .footer {
+        border-top: 1px solid gray;
+        margin:0;
+        position: relative;
+    }
+
+    .footer__copyright {
+        margin: 1rem 0 2.5rem 24px;
+        display: inline-block;
+    }
+
+    .footer__menu--list {
+        display: inline-flex;
+        list-style: none;
+        gap: 1rem;
+        position: absolute;
+        top: 1rem;
+        right: 1.2rem;
+    }
+
+    .footer__menu--link {
+        text-decoration: none;
+        color: gray;
+        font-size: 1rem;
+    }
 }
