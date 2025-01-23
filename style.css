@@ -19,6 +19,16 @@
     --blue: #37b7ee;
 }
 
+/* 
+section titles #4a4a4a
+text: #a0a0a0; tb no COLMAR
+gray bg: #d8d8d8;
+lighter gray bg: #eaebec;
+mobile bg btn: #9b9b9b; tb no ACADEMY
+blue link: #5798e4;
+subtitles: #6c6c6c;
+*/
+
 body {
     font-family: Verdana, sans-serif;
     font-size: 16px;

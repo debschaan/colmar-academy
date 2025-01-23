@@ -19,4 +19,78 @@
         display: block;
     }
 
+    .thesis-section {
+        display: flex;
+        margin: 32px 5px 32px 24px;
+        gap: 24px;
+    }
+
+    .thesis__section--content {
+        width: 60%;
+    }
+
+    .thesis__options {
+        width: 40%;
+    }
+
+    .thesis__section--video {
+        height: auto;
+    }
+
+    .thesis__section--title {
+        font-size: 18px;
+        margin: 24px 0 8px 0;
+    }
+
+    .thesis__section--text {
+        line-height: 25px;
+        color: var(--text);
+    }
+
+    .thesis__options--container {
+        padding: 16px 0 16px 5%;
+        display: flex;
+    }
+    
+    .thesis__options--container:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .thesis__options--image {
+        width: 35%;
+        aspect-ratio: 1 / 1;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .thesis__options--content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 16px;
+        width: 65%;
+        justify-content: center;
+    }
+
+    .thesis__options--title,
+    .thesis__options--text {
+        width: 80%;
+    }
+
+    .thesis__options--title {
+        font-size: 1.2rem;
+    }
+    
+    .thesis__options--text {
+        font-size: 1rem;
+    }
+
+    .fisma {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/thesis-fisma.jpg");
+    }
+
+    .now {
+        background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/thesis-now-and-then.jpg");
+    }
 }
