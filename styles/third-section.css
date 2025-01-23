@@ -1,88 +1,98 @@
-.thesis__section--video {
+.third-section__content--video {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 180px;
+    height: 11.2rem;
 }
 
-.thesis__options,
-.thesis__section--title,
-.thesis__section--text {
+.third-section__options,
+.third-section__content--title,
+.third-section__content--text {
     display: none;
 }
 
 @media screen and (min-width:800px) {
 
-    .thesis__options,
-    .thesis__section--title,
-    .thesis__section--text {
+
+    .third-section {
+        padding-top: 4rem;
+    }
+
+    .third-section__options,
+    .third-section__content--title,
+    .third-section__content--text {
         display: block;
     }
 
-    .thesis-section {
+    .third-section__container {
         display: flex;
-        margin: 32px 5px 32px 24px;
-        gap: 24px;
+        margin: 1rem .5rem 2rem 1.5rem;
+        gap: 1.5rem;
     }
 
-    .thesis__section--content {
+    .third-section__content--text,
+    .third-section__content--title,
+    .third-section__options--title {
+        color: var(--main-titles);
+    }
+
+    .third-section__content {
         width: 60%;
     }
 
-    .thesis__options {
+    .third-section__options {
         width: 40%;
     }
 
-    .thesis__section--video {
+    .third-section__content--video {
         height: auto;
     }
 
-    .thesis__section--title {
-        font-size: 18px;
-        margin: 24px 0 8px 0;
+    .third-section__content--title {
+        font-size: 1.1rem;
+        margin: 1.5rem 0 .5rem 0;
     }
 
-    .thesis__section--text {
-        line-height: 25px;
-        color: var(--text);
+    .third-section__content--text {
+        line-height: 1.5rem;
     }
 
-    .thesis__options--container {
-        padding: 16px 0 16px 5%;
+    .third-section__options--container {
+        padding: 1rem 0 1rem 5%;
         display: flex;
     }
     
-    .thesis__options--container:hover {
-        background-color: lightgray;
+    .third-section__options--container:hover {
+        background-color: var(--bg-dark-gray);
         cursor: pointer;
     }
 
-    .thesis__options--image {
+    .third-section__options--image {
         width: 35%;
         aspect-ratio: 1 / 1;
         background-repeat: no-repeat;
         background-size: contain;
     }
 
-    .thesis__options--content {
+    .third-section__options--content {
         display: flex;
         flex-direction: column;
-        gap: 8px;
-        margin-left: 16px;
+        gap: .5rem;
+        margin-left: 1rem;
         width: 65%;
         justify-content: center;
     }
 
-    .thesis__options--title,
-    .thesis__options--text {
+    .third-section__options--title,
+    .third-section__options--text {
         width: 80%;
     }
 
-    .thesis__options--title {
+    .third-section__options--title {
         font-size: 1.2rem;
     }
     
-    .thesis__options--text {
+    .third-section__options--text {
         font-size: 1rem;
     }
 

@@ -10,17 +10,22 @@
 }
 
 .header__hero--title {
-    padding: 32px 16px;
+    padding: 2rem 1rem;
 }
 
 .header__hero--text {
-    padding: 0 16px 24px;
+    padding: 0 1rem 1.5rem;
+}
+
+.header__hero--title,
+.header__hero--text {
+    color: var(--main-titles);
 }
 
 .header__hero--button {
     background-color: var(--button-mobile);
-    padding: 15px;
-    margin: 0 16px 32px;
+    padding: 1rem;
+    margin: 0 1rem 2rem;
     border: none;
     color: white;
     font-weight: bold;
@@ -33,15 +38,15 @@
 @media screen and (min-width: 800px) {
     .header__hero {
         display: grid;
-        grid-template-areas: 
-        "image title"
-        "image texto"
-        "image button";
-        padding: 32px 24px;
+        grid-template-areas:
+            "image title"
+            "image texto"
+            "image button";
+        padding: 2rem 1.5rem;
         grid-template-columns: 60% 40%;
         grid-template-rows: 3fr 1fr 3fr;
         gap: 0;
-        row-gap: 16px;
+        row-gap: 1rem;
     }
 
     .header__hero--banner {
@@ -51,24 +56,28 @@
 
     .header__hero--title {
         grid-area: title;
-        padding: 0 60px 0 24px;
+        padding: 0 3.75rem 0 1.5rem;
         align-self: self-end;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .header__hero--text {
         grid-area: texto;
-        padding: 0 60px 0 24px;
-        font-size: 20px;
+        padding: 0 3.75rem 0 1.5rem;
+        font-size: 1.2rem;
     }
 
     .header__hero--button {
         grid-area: button;
         align-self: self-start;
-        margin: 0 100px 0 24px;
-        font-size: 20px;
-        background-color: #444;
-        font-weight: 400;
-        padding: 8px auto;
+        margin: 0 6.25rem 0 1.5rem;
+        font-size: 1.2rem;
+        background-color: var(--main-titles);
+        font-weight: 600;
+        padding: .5rem auto;
+    }
+
+    .header__hero--button:hover {
+        background-color: var(--links);
     }
 }

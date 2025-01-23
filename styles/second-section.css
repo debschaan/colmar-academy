@@ -1,22 +1,22 @@
 .second-section {
     border-bottom: 1px solid var(--bg-light-gray);
     border-top: 1px solid var(--bg-light-gray);
-    padding: 32px 0;
+    padding: 2rem 0;
 }
 
-.section__courses--container {
+.second-section__container--course {
     background-color: var(--bg-dark-gray);
-    padding: 16px 16px 24px 16px;
-    margin-bottom: 8px;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: .5rem;
 }
 
-.section__courses:hover {
+.second-section__container--course:hover {
     cursor: pointer;
 }
 
-.courses__container--image,
-.courses__container--subtitle,
-.courses__container--text {
+.container__course--image,
+.container__course--subtitle,
+.container__course--text {
     display: none;
 }
 
@@ -25,55 +25,51 @@
         flex-direction: column;
         margin: 0 auto;
         border: none;
-        background-color: #eaebec;
-        padding: 72px;
+        background-color: var(--bg-gray);
+        padding: 4.5rem;
     }
 
-    .courses__container--image,
-    .courses__container--subtitle,
-    .courses__container--text {
+    .container__course--image,
+    .container__course--subtitle,
+    .container__course--text {
         display: block;
     }
 
-    .section--title {
-        text-align: center;
-        padding-bottom: 32px;
-    }
-
-    .section__courses {
+    .second-section__container {
         display: flex;
         flex-wrap: wrap;
-        gap: 32px;
+        gap: 2rem;
     }
 
-    .section__courses--container {
+    .second-section__container--course {
         background-color: white;
         display: flex;
         flex-direction: column;
         padding: 0;
-        flex: 1 1 calc((100% - 64px) / 3);
-        margin:0;
+        flex: 1 1 calc((100% - 4rem) / 3);
+        margin: 0;
     }
 
-    .courses__container--title {
-        padding: 16px 16px 24px 16px;
+    .container__course--title {
+        padding: 1rem;
+        color: var(--main-titles);
+        font-size: 1.4rem;
     }
 
-    .courses__container--subtitle {
-        padding: 0 16px 8px;
+    .container__course--subtitle {
+        padding: 0 1rem 1rem;
     }
 
-    .courses__container--text {
-        padding: 0 80px 24px 16px;
-        line-height: 25px;
+    .container__course--text {
+        padding: 0 5rem 1.5rem 1rem;
+        line-height: 1.5rem;
     }
 
 
     /* images */
-    .courses__container--image {
+    .container__course--image {
         background-size: cover;
-        height: 200px;
-
+        height: 12.5rem;
         border: none;
     }
 

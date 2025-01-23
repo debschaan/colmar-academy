@@ -1,18 +1,17 @@
-.first__section--content {
+.first-section__content {
     display: none;
 }
 
-.first__section--title {
+.first-section__content--title {
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
-.section__options--image {
-    background-color: blue;
+.first-section__options--image {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 150px;
+    height: 9.3rem;
     border: none;
 }
 
@@ -28,84 +27,93 @@
     background-image: url("/Users/debora/Documents/School/Codecademy/projects/colmar-academy/assets/images/information-guest-lecture-mobile.jpg");
 }
 
-.section__options--content {
-    margin: 16px 16px 64px 16px;
+.first-section__options--content {
+    margin: 1rem 1rem 4rem 1rem;
 }
 
-.section__options--text,
-.section__options--title {
-    margin-bottom: 6px;
+.first-section__options--text,
+.first-section__options--title {
+    margin-bottom: .3rem;
 }
 
-.section__options--text {
-    font-size: small;
+.first-section__options--text {
+    font-size: .6rem;
 }
 
-.section__options--link {
+.first-section__options--link {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--links);
 }
 
 @media screen and (min-width: 800px) {
 
-    .first__section {
+    .first-section {
         margin: 0;
         display: flex;
+        color: var(--main-titles);
     }
 
-    .first__section--image {
+    .first-section__content {
+        display: block;
+        width: 63%;
+        padding: 2rem 1.5rem;
+        border-right: 1px solid var(--bg-gray);
+    }
+
+    .first-section__content--image {
         width: 100%;
     }
 
-    .first__section--text {
-        line-height: 23px;
-    }
-
-    .first__section--content {
-        display: block;
-        width: 63%;
-        padding: 32px 24px;
-        border-right: 1px solid lightgray;
-    }
-
-    .first__section--title {
+    .first-section__content--title {
         text-align: left;
-        padding: 32px 0 24px 0;
+        padding: 2rem 0 1.5rem 0;
     }
 
-    .first__section--text-author {
-        margin: 32px 0;
+    .first-section__content--text {
+        line-height: 1.5rem;
+    }
+
+    .first-section__content--author {
+        margin: 2rem 0;
     }
     
-    .first__section--options {
+    .first-section__options {
         width: 40%;
-        padding: 32px 24px 0 0;
+        padding: 2rem 1.5rem 0 0;
     }
 
-
-    .section__options--image {
+    .first-section__options--image {
         width: 35%;
-        height: 150px;
+        height: 9.3rem;
     }
 
-    .section__options--container {
+    .first-section__options--container {
         display: flex;
-        padding: 16px;
-        gap: 16px;
+        padding: 1rem;
+        gap: 1rem;
     }
 
-    .section__options--container:hover {
-        background-color: lightgray;
+    .first-section__options--container:hover {
+        background-color: var(--bg-dark-gray);
     }
 
-    .section__options--content {
+    .first-section__options--content {
         margin: auto;
         width: 65%;
-        font-size: larger;
     }
 
-    .section__options--text{
-        margin-bottom: 8px;
-        font-size: 20px;
+    .first-section__options--title {
+        font-size: 1.5rem;
+    }
+
+    .first-section__options--title,
+    .first-section__options--text {
+        line-height: 1.5rem;
+        margin-bottom: .7rem;
+    }
+
+    .first-section__options--text,
+    .first-section__options--link{
+        font-size: 1.1rem;
     }
 }

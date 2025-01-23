@@ -1,14 +1,15 @@
 /* Mobile-First */
 .navbar {
-    height: 64px;
+    height: 4rem;
     width: 100vw;
+    background-color: white;
 }
 
 .navbar__list {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: .6rem;
 }
 
 .navbar__list--link {
@@ -16,8 +17,8 @@
 }
 
 .navbar__list--icon {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,21 +52,25 @@
 @media screen and (min-width: 800px) {
 
     .navbar {
-        margin: auto 24px;
+        margin: auto 1.5rem;
         width: auto;
     }
 
     .navbar__list {
         justify-content: flex-end;
-        gap: 16px;
-        padding:  24px;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .navbar__list a:hover {
+        cursor: pointer;
     }
 
     .navbar__list--item:first-child {
         position: absolute;
-        left: 24px;
-        top: 16px;
-        height: 34px;
+        left: 1.5rem;
+        top: 1rem;
+        height: 2.1rem;
     }
 
     .navbar__list--item {
@@ -74,24 +79,27 @@
         align-items: center;
     }
 
-    .navbar__list--link {
-        display: block;
-    }
-
     .navbar__list--icon {
         display: none;
     }
 
+    .navbar__list--link,
     .logo {
         display: block;
     }
 
     .logo-text {
+        color: var(--button-mobile);
         font-weight: 100;
     }
 
+    .navbar__list--link,
     .navbar__logo--text-bold {
-        font-weight: bold;
+        color: var(--main-titles);
+    }
+
+    .navbar__logo--text-bold {
+        font-weight: 900;
     }
 
 }
